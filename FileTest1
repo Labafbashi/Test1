@@ -1,0 +1,16 @@
+The Artificial Corpus
+This collection contains files for which the compression methods may exhibit pathological or worst-case behaviour--files containing little or no repetition (e.g. random.txt), files containing large amounts of repetition (e.g. alphabet.txt), or very small files (e.g. a.txt).
+
+As such, "average" results for this collection will have little or no relevance, as the data files have been designed to detect outliers. Similarly, times for "trivial" files will be negligible, and should not be reported.
+
+Note: New files can be added to this collection, so the overall average for the collection should not be reported as a benchmark. Results on this corpus should be reported for individual files, or a subset should be identified. Existing files in the collection will not be changed or removed.
+
+There are 4 files in this corpus:
+
+File	Abbrev	Category	Size
+a.txt	a	The letter 'a'	 1
+aaa.txt	aaa	The letter 'a', repeated 100,000 times.	 100000
+alphabet.txt	alphabet	Enough repetitions of the alphabet to fill 100,000 characters	 100000
+random.txt	random	100,000 characters, randomly selected from [a-z|A-Z|0-9|!| ] (alphabet size 64)	 100000
+(All file sizes in bytes)
+
